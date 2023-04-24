@@ -19,12 +19,18 @@ namespace LineComparision
         
         }
         //method
-        public void Calculate()
+       /* public void Calculate()
         {
             double length=Math.Sqrt(Math.Pow((x_Three-x_One),2)+Math.Pow((y_Two-y_One),2));
             Console.WriteLine($"Length of line : { length}");
 
+        }*/
+       //return type
+        public double Calculate()
+        {
+            double length = Math.Sqrt(Math.Pow((x_Three - x_One), 2) + Math.Pow((y_Two - y_One), 2));
+            Console.WriteLine($"Length of line : {length}");
+            return length;
         }
-
     }
 }
