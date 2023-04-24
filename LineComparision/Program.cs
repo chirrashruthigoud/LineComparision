@@ -12,6 +12,13 @@
                 Console.WriteLine("Equal");
             else
                 Console.WriteLine("Not Equal");
+
+            if (length_One.CompareTo(length_Two) == 0)
+                Console.WriteLine("Both lines are equal");
+            else if (length_One.CompareTo(length_Two) > 0)
+                Console.WriteLine("Line one is greater than line two ");
+            else
+                Console.WriteLine("line two is greater than line one");
             Console.ReadKey();
         }
     }
